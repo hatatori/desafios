@@ -18,6 +18,5 @@
 }
 
 .card:hover {
-  box-shadow: 3px 3px 3px -3px #00000055;
   box-shadow: 10px 10px 30px -3px #00000055;
 }
