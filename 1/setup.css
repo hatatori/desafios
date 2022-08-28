@@ -1,0 +1,27 @@
+:root {
+  --blue: #001e2b;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui;
+  color: var(--blue);
+}
+
+body {
+  background-color: #d0d0d0;
+}
+
+section {
+  width: 1000px;
+  max-width: 90%;
+  margin: 2em auto;
+}
+
+.resize {
+  overflow: auto;
+  resize: both;
+  transition: 0s;
+}

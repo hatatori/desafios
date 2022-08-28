@@ -1,37 +1,23 @@
-:root {
-  --blue: #001e2b;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  font-family: system-ui;
-  color: var(--blue);
-}
-
-body {
-  background-color: #ddd;
-}
-
 .card {
   width: 450px;
   height: 150px;
-  background-image: var(--bg);
-  background-position: center;
+  max-width: 100%;
   padding: 1em;
   border-radius: 0.5em;
-  transition: 0.5s;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-size: 100%;
   margin: 2em auto;
-  box-shadow: 0px 0px 20px 1px #aaa;
+  background-repeat: no-repeat;
+  background-image: var(--bg);
+  background-position: right;
+  background-size: cover;
+  background-color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .card:hover {
-  transition: 0.5s;
-  cursor: pointer;
-  background-size: 110%;
+  box-shadow: 3px 3px 3px -3px #00000055;
+  box-shadow: 10px 10px 30px -3px #00000055;
 }
