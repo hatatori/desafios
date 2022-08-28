@@ -1,0 +1,20 @@
+:root {
+  --blue: #001e2b;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  background-color: #e0dfd7;
+}
+
+section {
+  width: 1000px;
+  max-width: 90%;
+  margin: 2em auto;
+}
