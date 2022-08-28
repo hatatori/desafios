@@ -1,4 +1,4 @@
 1. Edite apenas o "style.css"
 2. Não altere o html "index.html"
 3. Não inspecione os códigos da pasta "example" a menos que tenha concluído o desafio
-4. Use a variável --blue do "setup.css"
+4. Use a variável --blue do "setup.css" no texto
