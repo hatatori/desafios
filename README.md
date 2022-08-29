@@ -6,6 +6,6 @@ Sempre leia o arquivo "tarefa.txt" antes dos outros.
 <br>
 <a href='https://hatatori.github.io/desafios/2/example'>Desafio 2</a> - Input drop down search
 <br>
-<a href='https://hatatori.github.io/desafios/3/example'>Desafio 2</a> - Menu icons
+<a href='https://hatatori.github.io/desafios/3/example'>Desafio 3</a> - Menu icons
 <br>
-<a href='https://hatatori.github.io/desafios/3/example'>Desafio 2</a> - Dialog
+<a href='https://hatatori.github.io/desafios/3/example'>Desafio 4</a> - Dialog
