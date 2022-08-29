@@ -1,0 +1,75 @@
+.dialog > *,
+.dialog section > * {
+  transition: 0.5s;
+}
+
+.dialog section {
+  width: 100%;
+  height: 100vh;
+  background-color: #00000055;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.dialog section > div {
+  border-radius: 0.5em;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+  padding: 1em;
+  width: 400px;
+  height: 200px;
+  transform: translateY(-5em);
+}
+
+.dialog_checkbox {
+  display: none;
+}
+.dialog_checkbox:checked + main section {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.dialog_checkbox:checked + main section > div {
+  transform: translateY(0em);
+}
+
+.btn-close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 3em;
+  height: 3em;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  font-size: large;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #7015ef;
+  color: white;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #7e31eb;
+}
+.btn:active {
+  background-color: #5d09d3;
+}

@@ -1,0 +1,3 @@
+1. Edite APENAS o "style.css"
+2. Não edite nada da pasta "example"
+3. Não edite o "index.html"
